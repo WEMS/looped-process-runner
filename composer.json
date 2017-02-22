@@ -1,0 +1,13 @@
+{
+    "name": "wems/looped-process-runner",
+    "description": "Simple wrapper for React's Event Loop",
+    "type": "library",
+    "require": {
+        "react/event-loop": "^0.4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "^2.8"
+    },
+    "license": "MIT"
+}
