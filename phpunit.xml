@@ -7,8 +7,7 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false"
-         syntaxCheck="true">
+         stopOnFailure="false">
     <testsuites>
         <testsuite name="Application Test Suite">
             <directory suffix="Test.php">./tests</directory>
@@ -20,12 +19,6 @@
         </whitelist>
     </filter>
     <logging>
-        <log type="coverage-html"
-             target="./tests/log/report"
-             charset="UTF-8"
-             yui="true"
-             hightlight="true"
-             lowupperbound="50"
-             highlowerbound="80" />
+        <log type="coverage-html" target="./tests/log/report" />
     </logging>
 </phpunit>
